@@ -1,0 +1,48 @@
+{
+  "name": "hostinger-cli",
+  "version": "0.1.0",
+  "description": "Agent-ready CLI for the Hostinger API \u2014 VPS, DNS, domains, hosting, mail, billing, WordPress, ecommerce",
+  "type": "module",
+  "bin": {
+    "hostinger-cli": "./dist/hostinger-cli.js"
+  },
+  "scripts": {
+    "build": "bun build src/index.ts --outfile dist/index.js --target bun",
+    "dev": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "commander": "^13.0.0",
+    "picocolors": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.7.0"
+  },
+  "keywords": [
+    "hostinger",
+    "vps",
+    "dns",
+    "domains",
+    "cli",
+    "api2cli",
+    "agent",
+    "hosting"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nardjo/hostinger-cli.git"
+  },
+  "homepage": "https://github.com/Nardjo/hostinger-cli#readme",
+  "bugs": {
+    "url": "https://github.com/Nardjo/hostinger-cli/issues"
+  },
+  "files": [
+    "dist",
+    "src",
+    "skills",
+    "README.md",
+    "package.json",
+    "tsconfig.json"
+  ]
+}
